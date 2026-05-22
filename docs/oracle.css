@@ -1208,6 +1208,14 @@ label.lbl {
   100% { clip-path: inset(0 0 100% 0 round 0); }
 }
 
+@keyframes taskbarWipe {
+  from { clip-path: inset(0 0 0 0); }
+  to   { clip-path: inset(0 0 100% 0); }
+}
+.taskbar--wiping {
+  animation: taskbarWipe 600ms ease-in forwards;
+}
+
 .summon-fall-layer {
   overflow: visible;
   pointer-events: none;

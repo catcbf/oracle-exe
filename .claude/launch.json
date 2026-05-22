@@ -1,0 +1,1 @@
+{"version":"0.0.1","configurations":[{"name":"oracle-exe","runtimeExecutable":"python3","runtimeArgs":["-m","http.server","8082"],"port":8082}]}
