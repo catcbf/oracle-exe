@@ -1210,7 +1210,7 @@ label.lbl {
 
 @keyframes taskbarWipe {
   from { clip-path: inset(0 0 0 0); }
-  to   { clip-path: inset(0 0 100% 0); }
+  to   { clip-path: inset(100% 0 0 0); }
 }
 .taskbar--wiping {
   animation: taskbarWipe 600ms ease-in forwards;
@@ -1256,7 +1256,7 @@ label.lbl {
   opacity: 1;
   filter: none;
   transform: translate(-50%, calc(-50% + 105vh));
-  animation: orb-rise-from-bottom 5s cubic-bezier(0.28, 0.04, 0.22, 1) forwards;
+  animation: orb-rise-from-bottom 3.5s cubic-bezier(0.28, 0.04, 0.22, 1) forwards;
   user-select: none;
   -webkit-user-drag: none;
 }
